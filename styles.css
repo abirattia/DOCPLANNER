@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  padding-right: 12%;
+  padding-left: 12%;
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.navbar div {
+  display: flex;
+  padding-top: 3%;
+  justify-content: space-between;
+}
+
+.navbar div h1 {
+  color: rgb(218, 218, 218);
+  font-size: 12px;
+  padding-right: 12%;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.top {
+  padding-right: 15%;
+  padding-left: 15%;
+  align-content: center;
+}
+
+.body h1 {
+  color: rgba(13, 143, 148, 0.781);
+  font-size: 25px;
+  padding-bottom: 5%;
+  font-weight: 100;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.block {
+  display: flex;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.Services {
+  display: flex;
+  margin-top: 5%;
+}
+
+.Forpatients {
+  background-color: #00b39b;
+  color: white;
+  border-radius: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-right: 5%;
+  align-items: center;
+}
+
+.Forpatients h1 {
+  background-color: #00b39b;
+  color: white;
+}
+
+.Fordoctors {
+  background-color: #3d83df;
+  color: white;
+  border-radius: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.Fordoctors h1 {
+  background-color: #3d83df;
+  color: white;
+}
+
+.Forclinics {
+  background-color: #1b2734;
+  color: white;
+  border-radius: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+}
+
+.Forclinics h1 {
+  background-color: #1b2734;
+  color: white;
+}
+
+.Links {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.Links h {
+  color: #00b39b;
+  font-size: x-large;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #00fdc6;
+  height:90vh;
+}
+
+.left {
+  margin-top: 2%;
+  
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+      }
+
+.section1 {
+  width: 50%;
+  padding-top: 5%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.section1 img{
+    position: relative;
+    top:280px;
+    right:200px;
+}
+
+.pos{
+    width:50%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.item {
+  background-color: white;
+  border-radius: 5%;
+  width: 80%;
+  height: 180px;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 20%;
+}
+
+.item h2 {
+  font-size: 12px;
+}
+
+
+
+.text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text h1 {
+  color: rgba(13, 143, 148, 0.781);
+  font-size: 25px;
+}
+
+.images {flex-wrap: wrap;
+  display: flex;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.image {
+  display: block;
+margin-right: 7px;
+margin-left: 7px;
+  border-radius: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  }
+
+.image:hover{
+    border: 1px rgb(228, 228, 228) solid;
+    transition: 0.5s;
+}
+
+.images h1 {
+  background-color: #00b39b;
+  color: white;
+}
+
+.text{
+  width:30%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.button{
+      background-color: blue;
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color:blueviolet;
+    color: white;
+}
+.footer{
+  margin-top: 10px;
+  padding-top: 50px;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid grey;
+    text-align: center;
+  }
+
